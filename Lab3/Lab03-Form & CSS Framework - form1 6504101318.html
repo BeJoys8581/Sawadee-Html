@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab03-Form & CSS Framework</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <nav class="navbar" style="background-color: rgba(0,121,73,255);">
+    <img src="file:///D:/Sawadee%20Html/image/MJU_LOGO.svg.png" alt="" width="50" height="50">
+      <b style="color: white;">แบบฟอร์มลาออก มหาวิทยาลัยเเม่โจ้</b> 
+        <span class="navbar-text">
+        </span>
+      </div>
+      </div>
+    </div>
+    </nav>
+  </head><br>
+
+  <body>
+    <fieldset>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+    <b><center>คำขอลาออก</center></b>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <p align="right"> เขียนที่มหาลัยแม่โจ้ 
+        เดือน/วัน/ปี <input type="date"date" name="date"><br><br> 
+
+   
+  <form>
+    <b>เรื่อง</b> &nbsp; &nbsp; ขอลาออก<br> 
+        <div class="row">
+          <label for="inputFac" class="col-sm-4 col-form-label">
+    <b>เรียน</b>&nbsp; &nbsp;อธิการบดี ผ่านคณะบดี</label>
+
+    <select name="คณะ" class="form-select"type="คณะ" placeholder="คณะ">
+      <optgroup label="คณะ">
+        <option value="2">คณะบริหารธุรกิจ</option>
+        <option value="3">คณะวิทยาศาสตร์</option>
+        <option value="4">คณะผลิตกรรมการเกษตร</option>
+        <option value="5">คณะศิลปศาสตร์</option>
+        <option value="6">คณะสถาปัตยกรรมศาสตร์ และการออกแบบสิ่งแวดล้อม </option>
+        <option value="7">คณะสารสนเทศและการสื่อสาร</option>
+        <option value="8">คณะเทคโนโลยีการประมง และทรัพยากรทางน้ำ</option>
+        <option value="9">คณะวิศวกรรมและอุตสาหกรรมเกษตร </option>
+        <option value="10">คณะพัฒนาการท่องเที่ยว </option>
+        <option value="11">คณะเศรษฐศาสตร์ </option>
+        <option value="12">คณะสัตวศาสตร์และเทคโนโลยี</option>
+        <option value="13">วิทยาลัยบริหารศาสตร์ </option>
+        <option value="14">วิทยาลัยพลังงานทดแทน </option>
+        <option value="15">วิทยาลัยนานาชาติ</option>
+        <option value="16">คณะสัตวแพทย์ศาสตร์</option>
+    </select>
+  </optgroup>
+    </div>
+    <br>
+    <div class="row">
+      <label for="Inputname" class="col-sm-1 col-form-label">ข้าพเจ้า</label> 
+      <div class="col-sm-2">
+              <select class="form-select" id="sex">
+                    <option value="nine">นาย</option>
+                    <option value="yin">นาง</option>
+                    <option value="yinnao">นางสาว</option>
+                  </select> 
+      </div>
+      <div class="col">
+              <input type="text" class="form-control" placeholder="ชื่อ-นามสกุล" aria-label="Last name" id="namestd" style="background-color:rgb(238, 238, 238);">
+              </div><br><br>
+      <div class="row">
+          <div class="col">
+              <input type="tel" class="form-control" placeholder="รหัสนักศึกษา" style="background-color:rgb(238, 238, 238);" aria-label="stdcode" id="stdcode"> 
+          </div>
+          <div class="col">
+              <input type="tel" class="form-control" placeholder="โทรศัพท์มือถือ" style="background-color:rgb(238, 238, 238);" aria-label="Last name" id="namestd">
+          </div><br><br>
+      </div>
+    <div class="row">
+      <label for="Inputname" class="col-sm-1 col-form-label">หลักสูตร</label>
+      <div class="col-sm-5">
+              <select class="form-select" id="หลักสูตร">
+                  <option value="year">ปริญญาตรี 4-5 ปี</option>
+                  <option value="sea">4 ปีเทียบเข้าเรียน(2ปี)</option>
+              </select>
+      </div>
+      <div class="col-sm-6">
+              <select class="form-select" id="see" >
+                <option value="ase">ภาคปกติ</option>
+                <option value="ase">ภาคสมทบ</option>
+              </select>
+      </div><br><br>
+
+    <div class="row">
+      <label for="Inputname" class="col-sm-1 col-form-label">คณะ</label>
+      <div class="col-sm-5">
+        <select name="คณะ" class="form-select"type="คณะ">
+        <optgroup label="คณะ"> 
+        <option value="2">คณะบริหารธุรกิจ</option>
+        <option value="3">คณะวิทยาศาสตร์</option>
+        <option value="4">คณะผลิตกรรมการเกษตร</option>
+        <option value="5">คณะศิลปศาสตร์</option>
+        <option value="6">คณะสถาปัตยกรรมศาสตร์ และการออกแบบสิ่งแวดล้อม </option>
+        <option value="7">คณะสารสนเทศและการสื่อสาร</option>
+        <option value="8">คณะเทคโนโลยีการประมง และทรัพยากรทางน้ำ</option>
+        <option value="9">คณะวิศวกรรมและอุตสาหกรรมเกษตร </option>
+        <option value="10">คณะพัฒนาการท่องเที่ยว </option>
+        <option value="11">คณะเศรษฐศาสตร์ </option>
+        <option value="12">คณะสัตวศาสตร์และเทคโนโลยี</option>
+        <option value="13">วิทยาลัยบริหารศาสตร์ </option>
+        <option value="14">วิทยาลัยพลังงานทดแทน </option>
+        <option value="15">วิทยาลัยนานาชาติ</option>
+        <option value="15.1">คณะพยาบาลศาสตร์</option>
+        <option value="16">คณะสัตวแพทย์ศาสตร์</option>
+    </select>
+  </optgroup>
+    </div>
+
+    <div class="col-sm-6">
+      <select name="คณะ" class="form-select"type="คณะ">
+      <optgroup label="คณะบริหารธุรกิจ"> 
+        <option value="2">สาขาวิชาการบัญชี</option>
+        <option value="3">สาขาวิชาบริหารธุรกิจ</option>
+        <option value="4">สาขาวิชานวัตกรรมธุรกิจดิจิทัล</option>
+        <option value="5">สาขาวิชานวัตกรรมธุรกิจค้าปลีกสมัยใหม่</option>
+
+      <optgroup label="คณะวิทยาศาสตร์">
+        <option value="6">สาขาวิชาวิทยาการคอมพิวเตอร์ </option>
+        <option value="7">สาขาวิชาคณิตศาสตร์</option>
+        <option value="8">สาขาวิชาเทคโนโลยีชีวภาพ</option>
+        <option value="9">สาขาวิชาเคมี </option>
+        <option value="10">สาขาวิชาสถิติและการจัดการสารสนเทศ </option>
+        <option value="11">สาขาวิชาเทคโนโลยีสารสนเทศ</option>
+        <option value="12">สาขาวิชาวัสดุศาสตร์</option>
+        <option value="13">สาขาวิชาฟิสิกส์ประยุกต์</option>
+        <option value="14">สาขาวิชานวัตกรรมเคมีอุตสาหกรรม</option>
+
+      <optgroup label="คณะผลิตกรรมการเกษตร">
+        <option value="15">สาขาเกษตรศาสตร์</option>
+        <option value="16">สาขาพืชสวน</option>
+        <option value="16">สาขาพืชไร่</option>
+        <option value="16">สาขาอารักขาพืช</option>
+        <option value="16">สาขาปฐพีศาสตร์</option>
+        <option value="16">สาขาการส่งเสริมและสื่อสารเกษตร</option>
+        <option value="16">สาขาเกษตรเคมี</option>
+        <option value="16">สาขาการพัฒนาภูมิสังคมอย่างยั่งยืน</option>
+        <option value="16">สาขาวิทยาการสมุนไพร</option>
+        <option value="16">สาขาการจัดการและพัฒนาทรัพยากร</option>
+
+      <optgroup label="คณะศิลปศาสตร์">
+        <option value="11">สาขานิเทศศาสตร์บูรณาการ</option>
+        <option value="11">สาขาภาษาไทยสำหรับชาวต่างประเทศ</option>
+        <option value="11">สาขาภาษาอังกฤษ</option>
+
+      <optgroup label="คณะสถาปัตยกรรมศาสตร์และการออกแบบสิ่งแวดล้อม">
+        <option value="11">สาขาสถาปัตยกรรมศาสตรบัณฑิต</option>
+        <option value="11">สาขาภูมิสถาปัตยกรรมศาสตร์</option>
+        <option value="11">สาขาเทคโนโลยีภูมิทัศน์</option>
+
+      <optgroup label="คณะสารสนเทศและการสื่อสาร">
+        <option value="11">สาขาการสื่อสารดิจิทัล</option>
+
+      <optgroup label="คณะเทคโนโลยีการประมง และทรัพยากรทางน้ำ">
+        <option value="11">สาขาการประมง</option>
+        <option value="11">สาขานวัตกรรมการจัดการธุรกิจประมง</option>
+
+        <optgroup label="คณะวิศวกรรมและอุตสาหกรรมเกษตร"> 
+          <option value="2">สาขาเทคโนโลยียางและพอลิเมอร์</option>
+          <option value="3">สาขาเทคโนโลยีหลังการเก็บเกี่ยว</option>
+          <option value="4">สาขาวิทยาศาสตร์และเทคโนโลยีการอาหาร</option>
+          <option value="5">สาขาวิศวกรรมเกษตร</option>
+          <option value="5">สาขาวิชาวิศวกรรมอาหาร</option>
+
+        <optgroup label="คณะพัฒนาการท่องเที่ยว">
+          <option value="11">สาขาการจัดการธุรกิจท่องเที่ยว</option>
+          <option value="11">สาขาพัฒนาการท่องเที่ยว</option>
+          
+        <optgroup label="คณะบริหารธุรกิจ"> 
+          <option value="2">สาขาเศรษฐศาสตร์</option>
+          <option value="3">สาขาเศรษฐศาสตร์เกษตรและสิ่งแวดล้อม</option>
+          <option value="4">สาขาเศรษฐศาสตร์ระหว่างประเทศ</option>
+          <option value="5">สาขาเศรษฐศาสตร์สหกรณ์</option>
+
+        <optgroup label="คณะสัตวศาสตร์และเทคโนโลยี">
+          <option value="11">สาขาสัตวศาสตร์</option>
+
+        <optgroup label="วิทยาลัยบริหารศาสตร์">
+          <option value="11">สาขารัฐประศาสนศาสตร์/option>   
+
+        <optgroup label="วิทยาลัยพลังงานทดแทน"> 
+          <option value="2">สาขาพลังงานทดแทน</option>
+          <option value="3">สาขาวิศวกรรมการอนุรักษ์พลังงาน</option>
+          <option value="4">สาขาวิศวกรรมฟาร์มอัจฉริยะและนวัตกรรมเกษตร</option>
+          <option value="5">สาขาวิชาเอกวิศวกรรมฟาร์มอัจฉริยะ</option>
+
+        <optgroup label="วิทยาลัยนานาชาติ"> 
+          <option value="2">สาขาการจัดการการท่องเที่ยว (หลักสูตรนานาชาติ)</option>
+          <option value="3">สาขาการจัดการเกษตรอินทรีย์ (หลักสูตรนานาชาติ)</option>
+          <option value="4">สาขาบริหารธุรกิจมหาบัณฑิต</option>
+          <option value="5">สาขาวิชาเศรษฐศาสตร์ดิจิทัลและนวัตกรรมการจัดการ</option>
+          <option value="5">สาขาเศรษฐศาสตร์ดิจิทัลและนวัตกรรมการจัดการ</option>
+
+        <optgroup label="คณะพยาบาลศาสตร์">
+          <option value="11">สาขาพยาบาล</optgroup>  
+
+        <optgroup label="คณะสัตวแพทย์ศาสตร์">
+          <option value="11">สาขาสัตวแพทย์</option>   
+  
+  </select>
+</optgroup>
+</div><br><br>
+
+<div class="col">
+  <input type="text" class="form-control" style="background-color:rgb(238, 238, 238);" placeholder="มีความประสงค์จะขอลาออก เนื่องจาก" aria-label="Last name" id="namestd">
+  </div><br><br>
+
+<div>
+<b align="left" style="color: red;">*** พร้อมนี้ได้แนบใบยินยอมขอลาออกจากผู้ปกครอง จึงเรียนมาเพื่อโปรดพิจารณา ***</b> 
+</div><br><br>
+
+<div>
+  <b><center>ขอแสดงความนับถือ </center></b><br>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <input type="text" class="form-control" style="background-color:rgb(238, 238, 238);" placeholder="ลงชื่อนักศึกษา"><br>
+        <b><center>( ชื่อนักศึกษา )</center></b>
+      </div>
+    </div>
+  </div><br>
+
+  <b>_____________________________________________________________________________________________________________________________________________________________________________________________________</b>
+<br><br>
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="data-box">
+              <b><center>- ความเห็นอาจารย์ที่ปรึกษา -</center></b>
+              <input type="checkbox" class="form"> ทราบ <br>
+          <input type="text" style="background-color:rgb(238, 238, 238);" class="form-control">
+          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="data-box">
+            <b><center>- ความเห็นประธานอาจารย์ประจําหลักสูตร -</center></b>
+              <input type="checkbox"> ทราบ <br>
+          <input type="text" style="background-color:rgb(238, 238, 238);" class="form-control">
+        </div>
+    </div>
+</div>
+</div>
+<br>
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="data-box">
+              <b><center>- ความเห็นคณบดี -</center></b>
+              <input type="checkbox"> ทราบ <br>
+          <input type="text" style="background-color:rgb(238, 238, 238);" class="form-control">
+          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="data-box">
+            <b><center>- ความเห็นผู้อํานวยการสํานักบริหารและพัฒนาวิชาการ -</center></b>
+              <input type="checkbox"> ทราบ <br>
+          <input type="text" style="background-color:rgb(238, 238, 238);" class="form-control">
+        </div>
+    </div>
+</div>
+</div>
+<br>    
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="data-box">
+              <b><center>- ความเห็นอธิการบดี -</center></b>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="option" id="option1" value="option1">
+                      <label class="form-check-label" for="option1">
+                        อนุมัติ
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="option" id="option2" value="option2">
+                        <label class="form-check-label" for="option2">
+                        ไม่อนุมัติ
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <input type="text" style="background-color:rgb(238, 238, 238);" class="form-control">
+          </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="data-box">
+            <b><center>- ความเห็นหัวหน้ากลุ่มภารกิจทะเบียนเรียน ประมวลผลฯ -</center></b><br>
+          <input type="text" style="background-color:rgb(238, 238, 238);" class="form-control">
+        </div>
+    </div>
+</div>
+</div>
+<br>   
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="data-box">
+              <b><center>- สําหรับเจ้าหน้าที่บันทึกลงฐานข้อมูล -</center></b><br>
+          <input type="text" style="background-color:rgb(238, 238, 238);" class="form-control" placeholder="นักวิชาการศึกษา ">
+          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="data-box">
+            <b><center>คําร้องใบลาออกจะสิ้นสุดที่กลุ่มภารกิจทะเบียนเรียนฯ
+              สํานักบริหารและพัฒนาวิชาการ 
+              ชั้น 2 อาคารอํานวย ยศสุข
+              เพื่อให้เจ้าหน้าที่บันทึกลงฐานข้อมูล</center></b>
+        </div>
+    </div>
+</div>
+</div>
+<br>
+
+  <div class="container">
+    <div align="right" ><b style="color: red;">กรอกคํารับรองของผู้ปกครอง--> </b>
+    <a href="file:///D:/Sawadee%20Html/form2.html" class="btn btn-primary">คํารับรองของผู้ปกครอง</a>
+  </div>
+</div>
+<br><br>
+    </div>
+    </div>  
+  </form>
+  </body>
+
+  <style>
+    .ft{
+        background-color:rgba(43,44,47,255);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 20px;
+        width: 100%;
+        font-style: inherit;
+    }
+</style>
+<footer class="ft"><h6 style="color: aliceblue;"><marquee direction=”right” scrollamount="10">
+  สำนักบริหารและพัฒนาวิชาการ 63 อาคารอำนวย ยศสุข หมู่ที่ 4 ต.หนองหาร อ.สันทราย จ.เชียงใหม่ 50290 เบอร์โทรศัพท์ 053-873458-59 (งานทะเบียน)</h6></marquee></footer>
+
+
+</footer>
+</html>
